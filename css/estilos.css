@@ -2,27 +2,35 @@
 /* REVISAR EL LOGO  */
 body{
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black;
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
    
 }
-header{
-    background-color: black;
+
+#avion{
+    width: 120px;
 }
-main{
-    background-color: brown;
+#avion:hover{
+    transform: translate(1000px);
 }
+#avion{
+    transition: transform 8s;
+}
+
 nav{ 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
      'Open Sans', 'Helvetica Neue', sans-serif;
      text-transform: uppercase;
 }
+/* Agregando gradientes */
+#gradiente{
+    background: rgb(2,66,74);
+    background: linear-gradient(148deg, rgba(2,66,74,1) 47%, rgba(8,221,242,1) 54%);
+
+}    
 #menu{
-    background-color: black;
+    background-color: greenyellow
     margin: 0;
   position: relative;
 
@@ -32,8 +40,14 @@ nav{
     margin: 0;
     padding: 0;
 }
-#menu ul {
-   
+#menu{
+    display: flex;
+    justify-content: end;
+}
+#principal{
+    background: rgb(33,109,116);
+    background: linear-gradient(148deg, rgba(33,109,116,1) 25%, rgba(2,66,74,1) 56%);
+}
 }
 #menu ul  a{
 font-family: -apple-system, BlinkMacSystemFont, 
@@ -52,6 +66,10 @@ padding: 30px 60px;
     width: 10px;
     height: 10px;
 
+}
+.video{
+    display: flex;
+    justify-content: center;
 }
 
 /* PONER UN TITULO BONITO  */
@@ -196,7 +214,8 @@ title{
     text-align: center;
 }
 
-/* PONER UN TITULO BONITO Y UNA LETRA LINDA */
+
+/* Aca van las mediaquery */
 @media screen and (max-width: 600px) {
 
     ul { 
@@ -206,6 +225,7 @@ title{
    .tsnacional{
        display: grid;
        grid-template-columns: 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
 
    }
 } 
