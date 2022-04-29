@@ -1,12 +1,12 @@
 /*  PONER UN ESPACIO ENTRE LOS LINK PARA NAVEGAR EN LA PAGINA*/
 /* REVISAR EL LOGO  */
-body{
+/* body{
     margin: 0;
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
    
-}
+} */
 
 #avion{
     width: 120px;
@@ -19,9 +19,7 @@ body{
 }
 
 nav{ 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-     'Open Sans', 'Helvetica Neue', sans-serif;
-     text-transform: uppercase;
+
 }
 /* Agregando gradientes */
 #gradiente{
@@ -50,42 +48,12 @@ nav{
          opacity: 0;
      }
  }
-#menu{
-    background-color: greenyellow;
-    margin: 1rem solid;
-  position: relative;
 
-}
-#menu ul{ 
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-#menu{
-    display: flex;
-    justify-content: end;
-}
 #principal{
     background: rgb(33,109,116);
     background: linear-gradient(148deg, rgba(33,109,116,1) 25%, rgba(2,66,74,1) 56%);
 }
-}
-#menu ul  a{
-font-family: -apple-system, BlinkMacSystemFont, 
-    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: x-large;
-text-decoration: none;
-    color: white;
-display: block;
-padding: 30px 60px;
 
-}
-
-#menu ul li a:hover{
-    background-color: black;
-    margin-top: 0;
-    width: 10px;
-    height: 10px;
 
 }
 .video{
@@ -229,11 +197,11 @@ title{
 
 /* ELEGIR UN COLOR DE FONDO PARA LA PAGINA Y FIJARSE SI SE PUEDE PONER UNA IMAGEN DE FONDO */
 
-#footer {
+/* #footer {
     background-color: blue;
     padding: 1em 0;
     text-align: center;
-}
+} */
 
 
 /* Aca van las mediaquery */
