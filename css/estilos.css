@@ -3,9 +3,7 @@
 #navbar{
     background-color: red;
 }
-#navegador{
-    background-color: red;
-}
+
 #avion{
     width:150px
 }
@@ -49,7 +47,6 @@
 }
 
 
-}
 .video{
     display: flex;
     justify-content: center;
