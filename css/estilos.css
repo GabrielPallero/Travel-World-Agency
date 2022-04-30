@@ -52,7 +52,18 @@
     background: linear-gradient(148deg, rgba(33,109,116,1) 25%, rgba(2,66,74,1) 56%);
 }
 
-
+.travelw{
+    display: flex;
+    justify-content: center;
+}
+.video{
+    display: flex;
+    justify-content: end;
+} 
+.lema2{
+    color: black;
+}   
+}
 .video{
     display: flex;
     justify-content: center;
@@ -89,7 +100,22 @@
     display: flex;
     justify-content: center;
 }
+.logof{
+    width: 100px;
+    height: 100px;
+}
+.foter{
+    display: flex;
+    justify-content: center;
+    background-color:black ;
+}
+.textfooter{
 
+    color: red
+}
+.logof{
+   ;
+}
 /* ELEGIR UN COLOR DE FONDO PARA LA PAGINA Y FIJARSE SI SE PUEDE PONER UNA IMAGEN DE FONDO */
 
 

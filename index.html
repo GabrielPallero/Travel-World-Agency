@@ -47,26 +47,85 @@
     <main class="principal" id="principal">
         <div>
         <div class="inicio"> 
-            <h1>Travel World</h1>
-            <h2>Mas que una agencia de viajes</h2>
-            
+            <h1 class="travelw">Travel World</h1>
+            <h2 class="lema">Mas que una agencia de viajes</h2>
+             <!-- carusel -->
+      <div class="row">
+        <div class="col-10x">
+          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- imagenes -->
+            <div class="carousel-inner" id="fotoscarusel">
+              <div class="carousel-item active">
+                <img
+                  src="/imagenes/postal bariloche.jpg"
+                  class="d-block w-90"
+                  alt="Slide 1"
+                />
+              </div>
+              <div class="carousel-item" id="fotoscarusel">
+                <img
+                  src="/imagenes/carlos Paz.jpg"
+                  class="d-block w-90"
+                  alt="Slide 2"
+                />
+              </div>
+              <div class="carousel-item" id="fotoscarusel">
+                <img
+                  src="/imagenes/Cataratas del iguazu.jpg"
+                  class="d-block w-90"
+                  alt="Slide 3"
+                />
+              </div>
+            </div>
+
+            <!-- botones -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Atrás</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="false"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
         </div>
        
         <div class="video">
-            <!-- <div>
-            <h1>Aca podes ver alguno de los paisajes que te proponemos</h1>
+            <div>
+            <h3 class="lema2">Viví una experiencia unica</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/oGU_S-bkgbc" title="YouTube video player" 
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen> </iframe>  -->
+        allowfullscreen> </iframe> 
             </div>
         </div>
     </main>
-  
-    <footer>
-    
+
+
+                     <!-- ARMAR EL FOOTER -->
+    <footer class="foter">
+        <div class="logof"> <img class="logof" src="/imagenes/tw.jpg" alt=""></div>
         Derechos Reservados - Agencia Travel World 2022
         
     </footer>
+    
 </div>
     
     </body>
