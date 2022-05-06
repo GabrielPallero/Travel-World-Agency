@@ -1,0 +1,13 @@
+.presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__texto{
+        font-family: monospace;
+    }
+    &__texto{
+        animation-name: efecto;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+    }
+}

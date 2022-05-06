@@ -1,9 +1,9 @@
 #principal {
-  background: #216d74;
-  background: linear-gradient(148deg, #216d74 25%, #02424a 56%); }
+  background: #cd1a1a;
+  background: linear-gradient(148deg, rgba(205, 26, 26, 0.821166) 0%, #742121 85%); }
 
 #navbar {
-  background-color: red; }
+  background-color: rgba(16, 16, 197, 0.685); }
 
 #avion {
   width: 150px; }
@@ -16,8 +16,8 @@
 
 /* Agregando gradientes */
 #gradiente {
-  background: #02424a;
-  background: linear-gradient(148deg, #02424a 47%, #08ddf2 54%); }
+  background: #cd1a1a;
+  background: linear-gradient(148deg, rgba(205, 26, 26, 0.821166) 82%, #742121 98%); }
 
 #globo {
   width: 100px;
@@ -44,6 +44,20 @@
     opacity: 1; }
   to {
     opacity: 0; } }
+
+#menunav {
+  text-transform: uppercase; }
+
+.presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .presentacion__texto {
+    font-family: monospace; }
+  .presentacion__texto {
+    animation-name: efecto;
+    animation-duration: 5s;
+    animation-iteration-count: 2; }
 
 .qsomos {
   font-size: xx-large;
