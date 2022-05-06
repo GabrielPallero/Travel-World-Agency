@@ -1,0 +1,35 @@
+#navbar {
+  background-color: red; }
+
+#avion {
+  width: 150px; }
+
+#avion:hover {
+  transform: translate(520px); }
+
+#avion {
+  transition: transform 8s; }
+
+/* Agregando gradientes */
+#gradiente {
+  background: #02424a;
+  background: linear-gradient(148deg, #02424a 47%, #08ddf2 54%); }
+
+#globo {
+  width: 100px;
+  height: 100px; }
+
+.globo {
+  display: flex;
+  justify-content: end; }
+
+.globo img {
+  animation-name: efecto;
+  animation-duration: 5s;
+  animation-iteration-count: 2; }
+
+@keyframes efecto {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }

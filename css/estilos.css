@@ -1,45 +1,5 @@
 /*  PONER UN ESPACIO ENTRE LOS LINK PARA NAVEGAR EN LA PAGINA*/
 /* REVISAR EL LOGO  */
-#navbar{
-    background-color: red;
-}
-
-#avion{
-    width:150px
-}
-#avion:hover{
-    transform: translate(520px);
-}
-#avion{
-    transition: transform 8s;
-}
-/* Agregando gradientes */
-#gradiente{
-    background: rgb(2,66,74);
-    background: linear-gradient(148deg, rgba(2,66,74,1) 47%, rgba(8,221,242,1) 54%);
-
-}    
-#globo{
-    width:100px;
-    height: 100px;
-}
- .globo{  
-     display: flex;
-     justify-content: end;
- }
-.globo img{
-     animation-name: efecto;
-     animation-duration: 5s;
-     animation-iteration-count: 2;
- }
- @keyframes efecto {
-     from {
-         opacity: 1;
-     }
-     to {
-         opacity: 0;
-     }
- }
 .display1{
     display: flex;
     justify-content: center;
@@ -63,7 +23,7 @@
 .lema2{
     color: black;
 }   
-}
+
 .video{
     display: flex;
     justify-content: center;
