@@ -6,7 +6,8 @@
   background-color: rgba(16, 16, 197, 0.685); }
 
 #avion {
-  width: 150px; }
+  width: 150px;
+  height: 50px; }
 
 #avion:hover {
   transform: translate(520px); }
@@ -48,6 +49,15 @@
 #menunav {
   text-transform: uppercase; }
 
+#profile__avatar {
+  border-radius: 100%;
+  width: 200px;
+  height: auto; }
+
+.logo {
+  width: 100px;
+  height: 100px; }
+
 .presentacion {
   display: flex;
   justify-content: center;
@@ -78,6 +88,14 @@
   justify-content: center;
   align-items: center;
   color: black; }
+
+.card {
+  margin: 1rem;
+  max-width: 500px; }
+
+.card {
+  margin: 1rem;
+  max-width: 500px; }
 
 #footer {
   display: flex;
