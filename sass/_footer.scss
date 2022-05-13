@@ -1,13 +1,14 @@
-#footer{
+.footer{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     background-color:black ;
-}
-.textfooter{
-
-    color: red
 }
 .logof{
     width: 100px;
     height: 100px;
+}
+.logof img{
+border-radius: 100%;
+
+
 }

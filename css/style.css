@@ -2,43 +2,34 @@
   background: #cd1a1a;
   background: linear-gradient(148deg, rgba(205, 26, 26, 0.821166) 0%, #742121 85%); }
 
-#navbar {
-  background-color: rgba(16, 16, 197, 0.685); }
+.navegador {
+  background-color: brown;
+  margin-top: 0; }
+  .navegador__logo {
+    display: flex;
+    justify-content: baseline;
+    width: 100px;
+    height: 100px; }
 
 #avion {
+  width: 120px;
+  height: 60px; }
+
+.avion:hover {
+  transform: translate(520px); }
+
+.avion {
+  transition: transform 8s; }
+
+.avion img {
+  border-radius: 30%;
   width: 150px;
   height: 50px; }
 
-#avion:hover {
-  transform: translate(520px); }
-
-#avion {
-  transition: transform 8s; }
-
-/* Agregando gradientes */
-#gradiente {
-  background: #cd1a1a;
-  background: linear-gradient(148deg, rgba(205, 26, 26, 0.821166) 82%, #742121 98%); }
-
-#globo {
-  width: 100px;
-  height: 100px; }
-
-.globo {
-  display: flex;
-  justify-content: end; }
-
-.globo img {
-  animation-name: efecto;
-  animation-duration: 5s;
-  animation-iteration-count: 2; }
-
-.logo {
-  display: flex;
-  padding: 0%;
-  margin: 0%;
-  width: 150px;
-  height: 150px; }
+.navegador__logo img {
+  border-radius: 100%;
+  width: 110px;
+  height: 110px; }
 
 @keyframes efecto {
   from {
@@ -47,16 +38,16 @@
     opacity: 0; } }
 
 #menunav {
-  text-transform: uppercase; }
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none; }
 
-#profile__avatar {
-  border-radius: 100%;
-  width: 200px;
-  height: auto; }
-
-.logo {
-  width: 100px;
-  height: 100px; }
+.presentacion__texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; }
 
 .presentacion {
   display: flex;
@@ -97,14 +88,14 @@
   margin: 1rem;
   max-width: 500px; }
 
-#footer {
+.footer {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   background-color: black; }
-
-.textfooter {
-  color: red; }
 
 .logof {
   width: 100px;
   height: 100px; }
+
+.logof img {
+  border-radius: 100%; }
