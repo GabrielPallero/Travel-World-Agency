@@ -2,6 +2,14 @@
   background: #cd1a1a;
   background: linear-gradient(148deg, rgba(205, 26, 26, 0.821166) 0%, #742121 85%); }
 
+.titleTemplate {
+  text-transform: uppercase;
+  color: black;
+  margin: 1rem;
+  font-size: 30px;
+  text-align: center;
+  /* con el @extend llamo a esta clase */ }
+
 .navegador {
   background-color: brown;
   margin-top: 0; }
