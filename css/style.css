@@ -2,13 +2,12 @@ main {
   background: #cd1a1a;
   background: linear-gradient(148deg, rgba(205, 26, 26, 0.821166) 17%, #742121 60%); }
 
-.titleTemplate {
+.titleTemplate, .travelw, .tituloptn, .titleTI {
   text-transform: uppercase;
   color: black;
   margin: 1rem;
-  font-size: 30px;
-  text-align: center;
-  /* con el @extend llamo a esta clase */ }
+  font-size: 40px;
+  text-align: center; }
 
 .navegador {
   background-color: brown;
@@ -78,14 +77,6 @@ main {
   margin: 1rem;
   display: flex;
   align-items: center; }
-
-.travelw {
-  display: flex;
-  justify-content: center; }
-
-.lema {
-  display: flex;
-  justify-content: center; }
 
 .Qstitulo {
   font-size: xx-large;

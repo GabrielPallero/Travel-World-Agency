@@ -19,10 +19,5 @@
     align-items: center;
 }
 .travelw { 
-    display: flex;
-    justify-content: center;
-}
-.lema { 
-    display: flex;
-    justify-content: center;
+    @extend .titleTemplate;
 }
