@@ -1,14 +1,32 @@
 .footer{
-    display: flex;
-    justify-content: end;
     background-color:black ;
 }
-.logof{
+.logof img{
+    display: flex;
+    justify-content: right;
     width: 100px;
     height: 100px;
 }
 .logof img{
 border-radius: 100%;
+}
+.rrss{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+$rrss: (
+    facebook:#3b5998,
+    instagram:#c92d8f, 
+    whatsapp:#00bb2d,);
 
-
+@each $name, $color in $rrss {
+    .#{$name} {
+        background-color: $color;
+        margin: 1rem;
+        padding: 10px;
+        color:#fff;
+        border-radius: 20px;
+    }
 }

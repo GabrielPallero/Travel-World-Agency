@@ -1,10 +1,10 @@
-.qsomos{
+.Qstitulo{
 
     font-size: xx-large;
     color: black;
-    font-weight: 1500 ;
+    font-weight: $tittleh1;
     font-variant: normal;
-    display: flex;
+   
     justify-content: center;
 
     }
@@ -16,7 +16,7 @@
 }
 .qssubt{
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
     color: black;
 }
