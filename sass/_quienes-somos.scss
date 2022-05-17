@@ -1,12 +1,5 @@
 .Qstitulo{
-
-    font-size: xx-large;
-    color: black;
-    font-weight: $tittleh1;
-    font-variant: normal;
-   
-    justify-content: center;
-
+    @extend .titleTemplate;
     }
 .textqs{
     font-family: Arial, Helvetica, sans-serif;
