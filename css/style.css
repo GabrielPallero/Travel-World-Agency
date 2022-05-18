@@ -17,19 +17,30 @@ main {
   font-size: medium;
   color: black; }
 
+li {
+  list-style: none; }
+
 .navegador {
   background-color: brown;
-  margin-top: 0; }
+  display: flex;
+  align-items: center; }
   .navegador__logo {
-    display: flex;
-    justify-content: baseline;
     gap: 1rem;
     width: 100px;
     height: 100px; }
+  .navegador__logo img {
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    margin: 1rem; }
 
-#avion {
+header#gradiente.navegador {
+  box-shadow: #020000; }
+
+.avion {
   width: 120px;
-  height: 60px; }
+  height: 60px;
+  margin: 1rem; }
 
 .avion:hover {
   transform: translate(520px); }
@@ -41,11 +52,6 @@ main {
   border-radius: 30%;
   width: 150px;
   height: 50px; }
-
-.navegador__logo img {
-  border-radius: 100%;
-  width: 110px;
-  height: 110px; }
 
 @keyframes efecto {
   from {
@@ -148,8 +154,12 @@ main {
 @media (max-width: 500px) {
   .carousel-item img {
     width: 320px;
-    height: 200px; } }
-
-.rrss {
-  padding: 5px;
-  overflow: hidden; }
+    height: 200px;
+    margin: 12px; }
+  .avion {
+    display: none; }
+  .rrss {
+    padding: 5px;
+    overflow: hidden; }
+  .navegador__logo {
+    height: 100%; } }

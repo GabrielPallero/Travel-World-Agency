@@ -2,9 +2,20 @@
     .carousel-item img{
         width: 320px;
         height: 200px;
+        margin:12px;
     }
+.avion{
+    display: none;
 }
 .rrss{
     padding: 5px;
     overflow: hidden;
 }
+.navegador{
+    &__logo{
+        height: 100%;
+    }
+}
+}
+
+
