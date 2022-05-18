@@ -112,6 +112,12 @@ header#gradiente.navegador {
   margin: 0 10px;
   max-width: 500px; }
 
+.tituloform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large; }
+
 .footer {
   background-color: black; }
 
