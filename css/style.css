@@ -1,3 +1,6 @@
+body {
+  font-family: 'Titillium Web', sans-serif; }
+
 main {
   background: #cd1a1a;
   background: linear-gradient(148deg, rgba(205, 26, 26, 0.821166) 17%, #742121 60%); }
@@ -9,12 +12,10 @@ main {
   text-transform: uppercase;
   color: black;
   margin: 1rem;
-  font-size: 40px;
   text-align: center; }
 
 .card-text {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: medium;
+  font-size: 16px;
   color: black; }
 
 li {
@@ -74,16 +75,14 @@ header#gradiente.navegador {
 .navbar {
   margin: 1rem; }
 
-.presentacion {
+.inicio__travelw {
   display: flex;
   justify-content: center;
-  align-items: center; }
-  .presentacion__texto {
-    font-family: monospace; }
-  .presentacion__texto {
-    animation-name: efecto;
-    animation-duration: 5s;
-    animation-iteration-count: 2; }
+  text-transform: uppercase; }
+
+.inicio__lema {
+  display: flex;
+  justify-content: center; }
 
 .carousel-item img {
   width: 1200px;
