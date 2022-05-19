@@ -18,7 +18,7 @@
     "url": "https://github.com/GabrielPallero/Travel-World-Agency/issues"
   },
   "homepage": "https://github.com/GabrielPallero/Travel-World-Agency#readme",
-  "description": "",
+  "description": "Este es un sitio web diseñado con el objetivo de aplicar las herramientas aprendidas en el curso de Desarrollo Web de CoderHouse, no es un sitio con fines comerciales",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
