@@ -4,4 +4,9 @@
 }
 .titleTI{
     @extend .titleTemplate;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.row.g-5{
+    margin: 1rem;
 }

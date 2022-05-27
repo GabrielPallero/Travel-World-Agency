@@ -3,12 +3,14 @@
     justify-content: center;
     align-items: center;
     font-size: xx-large;
-}
-#visionmision{
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-    padding: 1rem;
     
+}
+input{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    gap: 10px;
+}
+textarea{
+    margin: 0.5rem;
+    padding: 0.5rem;
 }

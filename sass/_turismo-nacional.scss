@@ -1,9 +1,14 @@
+.tituloptn{
+@extend .titleTemplate;
+margin: 0.5rem;
+padding: 0.5rem;
+}
 .card{
     margin: 0 10px;
     max-width: 500px;
+    margin-bottom: 0.5rem;
 }
-.tituloptn{
-@extend .titleTemplate;
+.row.g-4{
+    margin: 1rem;
 }
-
 
