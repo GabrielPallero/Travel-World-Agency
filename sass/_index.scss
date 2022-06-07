@@ -35,13 +35,21 @@ img.d-block{
 .video{
         margin: 15px;
          padding: 15px;
+         display: flex;
          justify-content: center;
          align-items: center;
-}
+       
+         }
     &__play{
         margin: 15px;
         padding: 15px;
-      
+        margin-bottom: 0.5rem;
+        
     }
+ h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
+}

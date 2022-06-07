@@ -102,12 +102,19 @@ li {
 .inicio .video {
   margin: 15px;
   padding: 15px;
+  display: flex;
   justify-content: center;
   align-items: center; }
 
 .inicio__play {
   margin: 15px;
-  padding: 15px; }
+  padding: 15px;
+  margin-bottom: 0.5rem; }
+
+.inicio h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .Qstitulo {
   margin: 0.5rem;
