@@ -20,6 +20,9 @@ main {
 li {
   list-style: none; }
 
+.btn-primary:active {
+  background-color: red; }
+
 .navegador {
   background-color: brown;
   display: flex;
@@ -89,7 +92,7 @@ li {
 
 .inicio .carousel-item img {
   width: 1200px;
-  height: 500px;
+  height: 700px;
   margin: 10px; }
 
 .inicio img.d-block {
